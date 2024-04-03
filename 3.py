@@ -14,11 +14,7 @@ for i in m:
 for i in m:
     if int(i[2]) == maxx:
         d = open('oldest3.txt', 'w')
-        d.write(str(i[0])+' ')
-        d.write(str(i[1])+' ')
-        d.write(str(i[2]))
+        d.write(str(i[0])+' '+str(i[1])+' '+str(i[2])
     if int(i[2]) == minn:
         d = open('youngest3.txt', 'w')
-        d.write(str(i[0])+' ')
-        d.write(str(i[1])+' ')
-        d.write(str(i[2]))
+        d.write(str(i[0])+' '+str(i[1])+' '+str(i[2])
